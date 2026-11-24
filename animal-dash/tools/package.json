@@ -1,0 +1,12 @@
+{
+  "name": "animal-dash-tools",
+  "private": true,
+  "type": "module",
+  "description": "Automated browser verification: screenshots, single-player autopilot race, two-client multiplayer race, performance capture.",
+  "scripts": {
+    "visual-test": "node visualTest.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "25.18.1"
+  }
+}

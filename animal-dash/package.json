@@ -1,0 +1,17 @@
+{
+  "name": "animal-dash",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ANIMAL DASH: ULTIMATE RACE - 3D online multiplayer animal racing (raw WebGL2 client + Colyseus server)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build && npm --prefix server run build",
+    "start": "node server/dist/index.js",
+    "typecheck": "npm --prefix server run typecheck && npm --prefix client run typecheck",
+    "test:sim": "npm --prefix server run test:sim",
+    "test:net": "npm --prefix server run test:net",
+    "test:browser": "npm --prefix tools install && npm --prefix tools run visual-test"
+  }
+}

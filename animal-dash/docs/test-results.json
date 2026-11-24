@@ -1,0 +1,240 @@
+{
+  "url": "http://localhost:3000",
+  "startedAt": "2026-11-24T12:01:24.366Z",
+  "checks": [
+    {
+      "ok": true,
+      "msg": "power-up activation observed during single-player race"
+    },
+    {
+      "ok": true,
+      "msg": "player finished the 06-stadium race"
+    },
+    {
+      "ok": true,
+      "msg": "results screen shown (06-stadium)"
+    },
+    {
+      "ok": true,
+      "msg": "06-stadium: 8 racers ranked"
+    },
+    {
+      "ok": true,
+      "msg": "player finished the 10-arena race"
+    },
+    {
+      "ok": true,
+      "msg": "results screen shown (10-arena)"
+    },
+    {
+      "ok": true,
+      "msg": "10-arena: 8 racers ranked"
+    },
+    {
+      "ok": true,
+      "msg": "performance race completed (stadium1080p)"
+    },
+    {
+      "ok": true,
+      "msg": "performance race completed (arena1080p)"
+    },
+    {
+      "ok": true,
+      "msg": "room code generated: PUG115"
+    },
+    {
+      "ok": true,
+      "msg": "host lobby shows Bob (Black Cat, READY) immediately"
+    },
+    {
+      "ok": true,
+      "msg": "both clients entered the same race"
+    },
+    {
+      "ok": true,
+      "msg": "clients control different racers"
+    },
+    {
+      "ok": true,
+      "msg": "host's view of guest is 3.04 m behind guest's own (expected ≈3.09 m from interpolation + latency)"
+    },
+    {
+      "ok": true,
+      "msg": "both clients received final results"
+    },
+    {
+      "ok": true,
+      "msg": "final rankings identical on both clients"
+    }
+  ],
+  "perf": {
+    "06-stadium-withScreenshots": {
+      "frames": 3959,
+      "avgFps": 57.9,
+      "minFps": 10,
+      "p1LowFps": 29.9,
+      "avgFrameMs": 17.27,
+      "p50Ms": 16.7,
+      "p95Ms": 17.2,
+      "p99Ms": 33.4,
+      "maxMs": 100,
+      "heapMB": 6,
+      "draws": 83,
+      "tris": 269734
+    },
+    "10-arena-withScreenshots": {
+      "frames": 3657,
+      "avgFps": 59.5,
+      "minFps": 10,
+      "p1LowFps": 57.5,
+      "avgFrameMs": 16.81,
+      "p50Ms": 16.7,
+      "p95Ms": 17.1,
+      "p99Ms": 17.4,
+      "maxMs": 100,
+      "heapMB": 17,
+      "draws": 131,
+      "tris": 146996
+    },
+    "stadium1080p": {
+      "frames": 4401,
+      "avgFps": 58.9,
+      "minFps": 29.2,
+      "p1LowFps": 30,
+      "avgFrameMs": 16.97,
+      "p50Ms": 16.7,
+      "p95Ms": 17.1,
+      "p99Ms": 33.3,
+      "maxMs": 34.2,
+      "heapMB": 8,
+      "draws": 212,
+      "tris": 641170,
+      "culledPerFrame": 41
+    },
+    "arena1080p": {
+      "frames": 3754,
+      "avgFps": 59.4,
+      "minFps": 20.2,
+      "p1LowFps": 30.9,
+      "avgFrameMs": 16.84,
+      "p50Ms": 16.7,
+      "p95Ms": 17.1,
+      "p99Ms": 32.4,
+      "maxMs": 49.5,
+      "heapMB": 19,
+      "draws": 79,
+      "tris": 122980,
+      "culledPerFrame": 41
+    },
+    "multiplayerHost": {
+      "frames": 5001,
+      "avgFps": 59,
+      "minFps": 15,
+      "p1LowFps": 30.1,
+      "avgFrameMs": 16.94,
+      "p50Ms": 16.7,
+      "p95Ms": 16.9,
+      "p99Ms": 33.2,
+      "maxMs": 66.8,
+      "heapMB": 9,
+      "draws": 112,
+      "tris": 536122
+    }
+  },
+  "net": {
+    "viewOffset": {
+      "metres": 3.04,
+      "expectedFromLatency": 3.09
+    },
+    "host": {
+      "corrections": 652,
+      "bigCorrections": 0,
+      "maxError": 1.068442680894303,
+      "sumError": 272.94792498427006,
+      "avgError": 0.18088000330302853,
+      "snapshots": 1509,
+      "lateSnapshots": 0,
+      "inputsSent": 2832,
+      "rtt": 3
+    },
+    "guest": {
+      "corrections": 663,
+      "bigCorrections": 0,
+      "maxError": 1.907999999999987,
+      "sumError": 299.9610447869012,
+      "avgError": 0.1987813418070916,
+      "snapshots": 1509,
+      "lateSnapshots": 0,
+      "inputsSent": 2760,
+      "rtt": 2
+    }
+  },
+  "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A721) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "multiplayerResults": {
+    "trackId": "stadium",
+    "entries": [
+      {
+        "idx": 3,
+        "place": 1,
+        "name": "Ziggy",
+        "animal": 1,
+        "isAI": true,
+        "playerId": "",
+        "finished": true,
+        "time": 55.75626936230668,
+        "items": 6,
+        "avoided": 20,
+        "boosts": 22,
+        "knockdowns": 0,
+        "coins": 0
+      },
+      {
+        "idx": 2,
+        "place": 2,
+        "name": "Mochi",
+        "animal": 4,
+        "isAI": true,
+        "playerId": "",
+        "finished": true,
+        "time": 59.7138353613696,
+        "items": 5,
+        "avoided": 21,
+        "boosts": 23,
+        "knockdowns": 0,
+        "coins": 0
+      },
+      {
+        "idx": 1,
+        "place": 3,
+        "name": "Bob",
+        "animal": 4,
+        "isAI": false,
+        "playerId": "WNRClDCck",
+        "finished": true,
+        "time": 74.6176537871966,
+        "items": 5,
+        "avoided": 16,
+        "boosts": 40,
+        "knockdowns": 2,
+        "coins": 68
+      },
+      {
+        "idx": 0,
+        "place": 4,
+        "name": "Alice",
+        "animal": 0,
+        "isAI": false,
+        "playerId": "Yo1lpD6lf",
+        "finished": false,
+        "time": 87.22335433940076,
+        "items": 4,
+        "avoided": 11,
+        "boosts": 47,
+        "knockdowns": 3,
+        "coins": 39
+      }
+    ]
+  },
+  "finishedAt": "2026-11-24T12:08:00.297Z",
+  "passed": true
+}

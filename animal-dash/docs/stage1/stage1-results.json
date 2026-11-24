@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "ok": true,
+      "msg": "pug.glb loaded and converted"
+    },
+    {
+      "ok": true,
+      "msg": "Pug portrait rendered from the GLB model"
+    },
+    {
+      "ok": true,
+      "msg": "player is the Pug"
+    },
+    {
+      "ok": true,
+      "msg": "jump state rendered with the GLB Pug"
+    },
+    {
+      "ok": true,
+      "msg": "slide state rendered with the GLB Pug"
+    },
+    {
+      "ok": true,
+      "msg": "Pug finished the race"
+    },
+    {
+      "ok": true,
+      "msg": "results screen reached"
+    },
+    {
+      "ok": true,
+      "msg": "no console errors/warnings (0)"
+    }
+  ],
+  "errors": [],
+  "perf": {
+    "fps": 19,
+    "p50": 33.6,
+    "p95": 133.1,
+    "draws": 159,
+    "tris": 596770
+  },
+  "glbReport": [
+    "pug: GLB ok (22692 tris, 2 clips)"
+  ]
+}
